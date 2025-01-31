@@ -1,10 +1,12 @@
 import "./App.css";
 import Alignment from "./Component/Alignment";
+import Marginpadding from "./Component/marginpadding";
 
 function App() {
   return (
     <>
-     <Alignment />
+     {/* <Alignment /> */}
+     <Marginpadding />
     </>
   );
 }
