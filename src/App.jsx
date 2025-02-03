@@ -1,6 +1,9 @@
 
 import Alignment from "./Component/Alignment";
 import Background from "./Component/Background";
+import Columns from "./Component/Columns";
+import Flexbox from "./Component/Flexbox";
+import Grid from "./Component/Grid";
 import Marginpadding from "./Component/marginpadding";
 
 function App() {
@@ -8,7 +11,10 @@ function App() {
     <>
      {/* <Alignment /> */}
      {/* <Marginpadding /> */}
-     <Background />
+     {/* <Background /> */}
+     {/* <Columns /> */}
+     {/* <Flexbox /> */}
+     <Grid />
     </>
   );
 }
